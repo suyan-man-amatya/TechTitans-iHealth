@@ -11,15 +11,17 @@ function About() {
     <>
       <div className="bg-aboutback bg-cover mx-8 rounded-3xl shadow-lg">
         <div className="flex flex-col justify-center h-2/5 rounded-3xl shadow-sm  items-center text-center backdrop-blur-sm ">
-          <div className="text-area flex flex-col w-3/4 justify-center items-center pl-20 ">
+          <div className="text-area  flex flex-col w-3/4 justify-center items-center pl-20 ">
             <div className="slog rounded-full flex w-1/5 justify-center px-3 py-2 ">
               <img src={Logo} alt="" />
             </div>
             <div className="title text-5xl py-3 w-2/4">
-              <h1 className="font-semibold">We're changing the whole game.</h1>
+              <h1 className="font-semibold  sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                We're changing the whole game.
+              </h1>
             </div>
             <div className="description text-slate-400"></div>
-            <div className="book">
+            <div className="book  sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
               <Button title="Connect with our Professionals ↗" />
             </div>
           </div>
