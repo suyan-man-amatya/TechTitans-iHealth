@@ -17,8 +17,8 @@ import img from "../../assets/contact.png";
 
 function CareCenter() {
   return (
-    <div className="flex bg-ambulance bg-cover  justify-around gap-20 mx-8 rounded-3xl mb-10 shadow-xl">
-      <div className="emergency-nums backdrop-blur-md text-black rounded-2xl p-3 shadow-md w-1/3 h-4/5 shadow-xl m-5 py-10 px-10">
+    <div className="flex bg-ambulance bg-cover  justify-around gap-20 mx-8 rounded-3xl mb-10 shadow-xl ">
+      <div className="emergency-nums backdrop-blur-md text-black rounded-2xl p-3 shadow-md w-1/3 h-4/5 shadow-xl m-5 py-10 px-10 text-[clamp(1rem, 5vw, 3rem)] ">
         <h1 className="font-semibold text-2xl text-center p-3">
           Emergency Contacts
         </h1>
