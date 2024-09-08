@@ -10,7 +10,7 @@ function Hero() {
         <div className="flex justify-around h-2/4 rounded-3xl shadow-lg  my-5 backdrop-blur-md">
           <div className="ext-area flex flex-col w-3/4 text-center justify-center items-center">
             <div className="slog rounded-full flex w-1/5 justify-center px-3">
-              <img src={Logo} alt="" />
+              <img className="w-2/4 h-2/4" src={Logo} alt="" />
             </div>
             <div className="title text-5xl py-3 text-black">
               The <h1 className="font-semibold">Best Medical</h1> and Treatment
