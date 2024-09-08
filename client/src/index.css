@@ -26,3 +26,21 @@ body {
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 1200px) {
+  .emergency-nums {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .emergency-nums {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .emergency-nums {
+    font-size: 1.2rem;
+  }
+}
