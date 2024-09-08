@@ -7,3 +7,42 @@
 .active.care {
   color: rgb(0, 211, 0);
 }
+
+@media (max-width: 1200px) {
+  nav {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  img {
+    width: 80%;
+    height: 80;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    width: 50%;
+    height: 50%;
+  }
+}
