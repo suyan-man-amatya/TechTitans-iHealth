@@ -50,7 +50,7 @@ import PreLoader from "./components/PreLoader";
 function App() {
   return (
     <div>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <Router>
         <NavBar />
         <Routes>
