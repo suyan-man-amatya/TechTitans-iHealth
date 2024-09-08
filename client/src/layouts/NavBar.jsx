@@ -9,7 +9,7 @@ import "./navbar.css";
 function NavBar() {
   return (
     <>
-      <nav className="flex justify-between items-center p-7">
+      <nav className="flex justify-between items-center p-7  sm:text-lg md:text-lg lg:text-2xl xl:text-4xl 2xl:text-5xl">
         <div className="logo">
           <img className="w-14" src={Logo} alt="" />
         </div>
