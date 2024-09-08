@@ -1,0 +1,20 @@
+/* Add these styles to your CSS file */
+.Modal {
+    content: "center";
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid #ccc;
+  }
+  
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  

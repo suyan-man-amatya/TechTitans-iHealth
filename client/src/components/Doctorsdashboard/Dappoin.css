@@ -1,0 +1,30 @@
+
+
+.bg-dark {
+    /* background-color: #1e293b; */
+  }
+  
+  .text-blue-600 {
+    color: #2563eb;
+  }
+  
+  .text-blue-800 {
+    color: #1d4ed8;
+  }
+  
+  .bg-gray-900 {
+    background-color: #111827;
+  }
+  
+  .bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  

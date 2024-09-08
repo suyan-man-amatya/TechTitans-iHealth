@@ -1,0 +1,70 @@
+.box-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .text-area {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .form-area {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    border-radius: 30px;
+    .content-area {
+      background-color: white;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 18px;
+      border-radius: 20px;
+      align-items: center;
+
+      .email input {
+        background-color: white;
+      }
+
+      .password input {
+        background-color: white;
+      }
+    }
+    .image-area {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 32px;
+      font-weight: 600;
+
+      .description {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.818);
+      }
+    }
+    .bottom {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+
+      .already {
+        color: gray;
+      }
+
+      .login {
+        /* color: rgb(0, 215, 234); */
+        transition: 0.5s;
+      }
+      .login:hover {
+        color: rgb(0, 155, 169);
+      }
+    }
+  }
+}

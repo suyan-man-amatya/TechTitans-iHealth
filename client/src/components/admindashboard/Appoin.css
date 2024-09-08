@@ -1,0 +1,19 @@
+/* Add these styles to your CSS file */
+.modal {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-25%, -40%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 2px 2px 5px black;
+
+  }
+  
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
